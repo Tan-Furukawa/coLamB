@@ -2,7 +2,9 @@ import cupy as np
 from numpy.typing import NDArray
 
 
-def add_initial_noise(Nx: int, Ny: int, Nz: int, c0: float, noise: float, seed:int=123)->NDArray:
+def add_initial_noise(
+    Nx: int, Ny: int, Nz: int, c0: float, noise: float, seed: int = 123
+) -> NDArray:
     """
     Generates an initial concentration field with added random noise.
 

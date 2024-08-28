@@ -1,5 +1,5 @@
 # %%
-from coherent_binary_3d import CoherentBinary3D, DataSet
+from coLamB import CoherentBinary3D, DataSet
 
 dataset = DataSet()
 # %%

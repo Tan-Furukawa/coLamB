@@ -4,13 +4,13 @@ import os
 import cupy as cp
 import numpy as np
 import matplotlib.pyplot as plt
-from binary_coherent_3d.initial_noise import add_initial_noise
-from binary_coherent_3d.prepare_fft import prepare_fft
-from binary_coherent_3d.green_tensor import green_tensor
-from binary_coherent_3d.elastic_energy import solve_elasticity
-from binary_coherent_3d.free_energy import get_free_energy
-from binary_coherent_3d import plot as mplt
-from binary_coherent_3d import save as msave
+from coLamB.initial_noise import add_initial_noise
+from coLamB.prepare_fft import prepare_fft
+from coLamB.green_tensor import green_tensor
+from coLamB.elastic_energy import solve_elasticity
+from coLamB.free_energy import get_free_energy
+from coLamB import plot as mplt
+from coLamB import save as msave
 
 from typing import Literal, Union
 from numpy.typing import NDArray
@@ -404,7 +404,7 @@ class CoherentBinary3D(object):
 
 
 if __name__ == "__main__":
-    from binary_coherent_3d import CoherentBinary3D, DataSet
+    from coLamB import CoherentBinary3D, DataSet
 
     dataset = DataSet()
 

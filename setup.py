@@ -3,13 +3,13 @@ from setuptools import setup, find_packages
 
 setup(
     name="coLamB",
-    version="0.1.0",
+    version="0.1.1",
     description="A package for simulating binary coherent phase field with elasticity.",
     author="Furukawa Tan",
     packages=find_packages(),
     install_requires=[
+        # "cupy",
         "numpy",
-        "cupy",
         "matplotlib",
         "tqdm",
     ],

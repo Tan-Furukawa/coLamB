@@ -1,4 +1,4 @@
-# coLamB
+# coLamB: Cahn-Hilliard simulation for coherent binary lamellae
 
 [![DOI](https://zenodo.org/badge/848632676.svg)](https://zenodo.org/doi/10.5281/zenodo.13626591)
 

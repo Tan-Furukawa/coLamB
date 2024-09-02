@@ -1,5 +1,7 @@
 # coLamB
 
+[![DOI](https://zenodo.org/badge/848632676.svg)](https://zenodo.org/doi/10.5281/zenodo.13626591)
+
 ![](img/lamellar_example.png)
 ## Installation
 
